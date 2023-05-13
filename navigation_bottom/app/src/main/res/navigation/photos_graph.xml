@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photos_graph"
+    app:startDestination="@id/tigerFragment">
+
+    <fragment
+        android:id="@+id/tigerFragment"
+        android:name="com.example.navigationapplication.presentation.photo.TigerFragment"
+        android:label="fragment_tiger"
+        tools:layout="@layout/fragment_tiger" />
+    <fragment
+        android:id="@+id/pumaFragment"
+        android:name="com.example.navigationapplication.presentation.photo.PumaFragment"
+        android:label="fragment_puma"
+        tools:layout="@layout/fragment_puma" />
+</navigation>
